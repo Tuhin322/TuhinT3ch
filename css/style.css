@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../pic/image-analysis.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+
+ul {
+	background: black;
+	padding: 0;
+	margin: 0;
+	opacity: .8;
+	overflow: hidden;
+
+
+}
+
+ul li {
+
+	float: left;
+	list-style-type: none;
+	line-height: 50px;
+
+}
+
+ul li a {
+	color: aliceblue;
+	text-align: center;
+	text-transform:
+		uppercase;
+	text-decoration:
+		none;
+	opacity: .8;
+	transition: .2s;
+	padding: 12px 40px;
+
+	
+	
+	position: sticky;
+
+}
+
+ul li a:hover {
+	background: grey;
+	color: black;
+
+}
+
+.d2 {
+	display: none;
+	position: absolute;
+}
+
+.d2 a {
+	display: block;
+	background: white;
+	color: black;
+	opacity: .8;
+}
+
+.d1:hover .d2 {
+	display: block;
+}
+
+
+
+.tuhin {
+	text-align: center;
+	margin-top: 10%;
+	margin-right: 25%;
+	margin-left: 25%;
+
+	margin-bottom: 10%;
+}
+
+.tuhin > p {
+	text-align: center;
+	text-transform: uppercase;
+	color: aliceblue;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+.tn h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 20px;
+	color: whitesmoke;
+	margin-bottom: 5px;
+	margin-left: 10px
+
+}
+
+.tu > p {
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-right: 15%
+}
+
+#l1 {
+	text-decoration: none;
+	font-size: 30px;
+	color: whitesmoke;
+	border: 2px solid whitesmoke;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 3;
+	border-radius: 5px;
+	text-transform: uppercase;
+	transition: 1s;
+	
+	
+}
+#l2 {
+text-decoration: none;
+	font-size: 30px;
+	color: whitesmoke;
+	border: 2px solid whitesmoke;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 3;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	transition: 1s;
+	
+}
+ a:hover{
+	background: orange;
+}
