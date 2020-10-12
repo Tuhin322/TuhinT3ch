@@ -9,6 +9,7 @@ body{
 	height: 100vh;
 	background: url(../pic/image-analysis.png) no-repeat;
 	background-size: cover;
+	background-attachment:fixed;
 }
 .head{
 	color: aliceblue;
