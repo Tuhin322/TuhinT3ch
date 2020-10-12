@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: url(../pic/image-analysis.png) no-repeat;
+	background-size: cover;
+}
+.head{
+	color: aliceblue;
+	text-transform: capitalize;
+	letter-spacing:2px;
+	font-family: sans-serif;
+	background-color: rgba(44, 62, 80,0.8);
+	justify-content:space-around;
+	display: flex;
+	line-height: 50px;
+	font-weight: bolder;
+	position: sticky;
+	top: 0;
+	
+}
+
+ul{
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+	justify-content: space-around;
+	
+}
+ul li {
+ line-height:50xp;
+}
+ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 12px 16px;
+	color: aliceblue;
+	
+}
+ul li a:hover{
+	border-top: 2px double black;
+	border-bottom: 2px double black;
+	opacity: .8;
+	
+}
+.d2 {
+	background: white;
+	opacity: .8;
+	display: none;
+	position: absolute;
+}
+.d2 a {
+	display: block;
+	color: black;
+	
+	
+}
+.d1:hover .d2 {
+	display: block;
+}
+.tuhin {
+	text-align: center;
+	margin-top:20%;
+	margin-bottom: 10%;
+	margin-left: 40%;
+	margin-right: 30%;
+	
+}
+.tuhin > p {
+	color: aliceblue;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 10px
+}
+.tn h2 {
+	color: aliceblue;
+	font-family:  sans-serif;
+	text-transform: capitalize;
+	font-size: 80px;
+	font-weight: lighter;
+	letter-spacing: 10px;
+	text-align: center;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px
+}
+.tu p {
+	color: aliceblue;
+	font-family:  sans-serif;
+	text-transform: capitalize;
+	font-size:20px;
+	font-weight: lighter;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 20px;
+
+
+}
+#l1 {
+text-decoration: none;
+	font-size: 30px;
+	color: whitesmoke;
+	border: 2px solid whitesmoke;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 3;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	transition: 1s;
+	
+}
+#l2 {
+	text-decoration: none;
+	font-size: 30px;
+	color: whitesmoke;
+	border: 2px solid whitesmoke;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 3;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	transition: 1s;
+	
+	
+	
+}
+#l1:hover{
+	background:orange;
+}
+#l2:hover{
+	background:orange;
+}
+
+
+
+
+	
+
+	
+	
+
