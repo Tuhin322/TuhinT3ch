@@ -61,6 +61,11 @@ ul li a:hover{
 	
 	
 }
+.d2 a:hover {
+backgroud:black;
+color:white;
+	opacity:.8;
+}
 .d1:hover .d2 {
 	display: block;
 }
