@@ -1,0 +1,33 @@
+/*big land space tablate laptop*/
+@media (min-width: 1200px){
+	  
+}
+/* tablate laptop loew resolution* */
+@media (max-width: 990px){
+	.header img {
+		width: 100%;
+		
+	
+	
+	}
+	.header nav {
+		text-align: left;
+		visibility: hidden;
+	}
+	#iconbar{
+		visibility: visible;
+		opacity: 1;
+	}
+}
+/* e readears */
+@media (max-width: 800px){
+}
+
+/* android i phone landspace */
+@media (max-width: 600px){
+	
+}
+/* android iphone potrait */ 
+@media (max-width: 480px){
+	
+}
